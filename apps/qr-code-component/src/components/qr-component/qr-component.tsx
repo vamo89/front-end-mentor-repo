@@ -11,6 +11,8 @@ const QrComponentStyled = styled.div`
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+
+  box-shadow: 10px 10px 15px hsl(218deg 44% 71%);
 `;
 
 const QrCodeContainer = styled.div`
@@ -29,7 +31,7 @@ const Title = styled.h1`
 `;
 
 const Subtitle = styled.p`
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 400;
   color: hsl(220, 15%, 55%);
   text-align: center;
