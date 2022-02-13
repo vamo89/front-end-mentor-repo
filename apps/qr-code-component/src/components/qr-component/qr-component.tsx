@@ -20,7 +20,7 @@ const QrCodeContainer = styled.div`
   border-radius: 10px;
 `;
 
-const Title = styled.p`
+const Title = styled.h1`
   font-size: 22px;
   font-weight: 700;
   color: hsl(218, 44%, 22%);
